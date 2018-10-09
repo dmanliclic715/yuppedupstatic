@@ -31,7 +31,7 @@ const query = `{
 }`;
 
 export default {
-  siteRoot: "http://localhost:3000/",
+  siteRoot: "https://silly-goodall-3d66aa.netlify.com",
   renderToHtml: (render, Comp, meta) => {
     // Create a sheetsRegistry instance.
     const sheetsRegistry = new SheetsRegistry();

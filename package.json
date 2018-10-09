@@ -6,16 +6,19 @@
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
-    "build": "react-static build",
+    "build": "yarn build-css && react-static build",
     "serve": "serve dist -p 3000",
-    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "build-css":
+      "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-css":
+      "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint:check": "eslint . --ext=js,jsx;  exit 0",
     "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+    "install:clean":
+      "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
   "dependencies": {
     "@material-ui/core": "3.1.1",
