@@ -31,7 +31,7 @@ const query = `{
 }`;
 
 export default {
-  siteRoot: "https://silly-goodall-3d66aa.netlify.com",
+  siteRoot: "https://epic-noether-abe975.netlify.com",
   renderToHtml: (render, Comp, meta) => {
     // Create a sheetsRegistry instance.
     const sheetsRegistry = new SheetsRegistry();
