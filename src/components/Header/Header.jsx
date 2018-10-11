@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-static";
+// import { Link } from "react-router-dom";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // nodejs library to set properties for components
@@ -89,7 +90,7 @@ class Header extends React.Component {
         <Hidden mdUp implementation="css">
           <Drawer
             variant="temporary"
-            anchor={"right"}
+            anchor="right"
             open={this.state.mobileOpen}
             classes={{
               paper: classes.drawerPaper

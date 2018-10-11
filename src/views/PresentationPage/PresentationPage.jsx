@@ -54,9 +54,7 @@ class PresentationPage extends React.Component {
               <GridItem>
                 <div className={classes.brand}>
                   <h1>
-                    KUYA DID THIS LOAD INSTANTLY<span
-                      className={classes.proBadge}
-                    >
+                    Material Kit React<span className={classes.proBadge}>
                       PRO
                     </span>
                   </h1>
