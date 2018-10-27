@@ -84,7 +84,7 @@ export default {
     }
   },
   getRoutes: async () => {
-    const { allPosts, allAuthors } = await request(GRAPHCMS_API, query);
+    // const { allPosts, allAuthors } = await request(GRAPHCMS_API, query);
 
     return [
       {

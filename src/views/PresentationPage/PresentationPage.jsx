@@ -58,7 +58,7 @@ class PresentationPage extends React.Component {
                       PRO
                     </span>
                   </h1>
-                  <h3 className={classes.title}>FUCK YEAH IT DID</h3>
+                  <h3 className={classes.title}>Testing</h3>
                 </div>
               </GridItem>
             </GridContainer>
